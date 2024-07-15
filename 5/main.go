@@ -8,6 +8,9 @@ func main() {
 	myArray[0] = 1
 	myArray[1] = 2
 	myArray[2] = 3
-	println(myArray)
+	fmt.Println("Array:", myArray)
 	fmt.Println(len(myArray))
+	for i, v := range myArray {
+		fmt.Printf("index is %d and value is %d\n", i, v)
+	}
 }
