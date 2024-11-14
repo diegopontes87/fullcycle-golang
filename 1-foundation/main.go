@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	mathematic "fullcycle_golang/package"
+	mathematic "fullcycle_golang/1-foundation/22-package"
 )
 
 func main() {
