@@ -10,7 +10,6 @@ import (
 type Category struct {
 	ID   int `gorm:"primaryKey"`
 	Name string
-	// This will create created_at, updated_at and deleted_at columns - Soft delete
 }
 
 type Product struct {
